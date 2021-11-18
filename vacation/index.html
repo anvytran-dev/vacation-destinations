@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Vacation Wish List Page">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Vacation Destination WishList</title>
+
+        <!-- external CSS link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class ="welcome">
+            <section class ="welcomeText">
+                <h1 id="welcomeTextH1">Vacation Destination WishList</h1>
+                <p id="welcomeTextP">Found exciting places to visit on your next vacation? Use the form below to add them to the wishlist</p>
+            </section>
+        </section>
+        <section class ="information">
+            <section class ="enterInfo">
+                <form id ="desForm">
+                    <label for="desNameInput">Destination name</label>
+                    <input type="text" class="inputDesForm" id="nameDes" placeholder="Enter the name of the destination" required>
+
+                    <label for ="locationInput">Location</label>
+                    <input type="text" class="inputDesForm" id="locationDes" placeholder="Where is it located?" required>
+
+                    <label for ="descInput">Description</label>
+                    <textarea rows="4" cols="20" class="inputDesForm" id="descDes" placeholder="Where is it located?"></textarea>
+
+                    <button type="submit" class="inputDesForm" id="submitButton" >Add to list</button>
+                </form>
+
+            </section>
+            <section class ="enterInfo">
+                <h2 class='destinationDetails'>Enter destination details</h2>
+                
+                <div class="container d-flex flex-wrap">
+                  
+                </div>
+                  
+            </section>
+        </section>
+
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+</html>
